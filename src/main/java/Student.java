@@ -1,3 +1,4 @@
+// Incomplete - Java II - JUnit Exercise
 import java.util.ArrayList;
 
 public class Student {
@@ -24,8 +25,10 @@ public class Student {
         return this.grades;
     }
 
-    public void addGrade(int grade) {
-        this.grades.add(grade);
+    public void addGrades(int... grade) {
+        for (int i : grade) {
+            grades.add(i);
+        }
     }
 
     public double getGradeAverage() {

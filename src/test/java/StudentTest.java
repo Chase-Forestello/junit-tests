@@ -1,3 +1,4 @@
+// Incomplete - Java II - JUnit Exercise
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -25,17 +26,17 @@ public class StudentTest {
     @Test
     public void testAddGrade(){
         Student fer = new Student(1L, "fer");
-        fer.addGrade(100);
+        fer.addGrades(100);
         assertSame(100, fer.getGrades().get(0));
-        fer.addGrade(80);
+        fer.addGrades(80);
         assertSame(80, fer.getGrades().get(1));
     }
 
     @Test
     public void testAverageGrade(){
         Student fer = new Student(1L, "fer");
-        fer.addGrade(100);
-        fer.addGrade(80);
+        fer.addGrades(100);
+        fer.addGrades(80);
         assertEquals(90, fer.getGradeAverage(), 0);
     }
 }
