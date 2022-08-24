@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 
 public class StudentTest {
     private Student chase;
@@ -34,8 +35,7 @@ public class StudentTest {
 
     @Test
     public void addGradeTest(){
-        long indexZero = chase.getGrades().get(0);
-        assertEquals(98, indexZero);
+        assertSame(98, chase.getGrades().get(0));
     }
 
     @Test
