@@ -1,4 +1,4 @@
-// Incomplete - Java II - JUnit Exercise
+// Complete - Java II - JUnit Exercise
 package student;
 
 import org.junit.Before;
