@@ -1,4 +1,4 @@
-// Incomplete - Java II - JUnit Exercise
+// Complete - Java II - JUnit Exercise
 import org.junit.Before;
 import org.junit.Test;
 

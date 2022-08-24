@@ -1,4 +1,4 @@
-// Incomplete - Java II - JUnit Exercise
+// Complete - Java II - JUnit Exercise
 import org.junit.Test;
 
 import java.util.ArrayList;
