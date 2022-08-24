@@ -8,8 +8,7 @@ import static org.junit.Assert.*;
 
 public class CohortTest {
     private Cohort cohort;
-    private Student chase;
-    private Student chaseO;
+    private Student chase, chaseO;
 
     @Before
     public void setUp(){
